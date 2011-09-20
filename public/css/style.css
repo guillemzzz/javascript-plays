@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: bold;
+  src: local('CabinSketch Bold'), local('CabinSketch-Bold'), url('fonts/Cabin_Sketch.woff') format('woff');
+}
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Architects Daughter'), local('ArchitectsDaughter'), url('fonts/ArchitectsDaughter.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('fonts/ubuntu.woff') format('woff');
+}
+
+.cabin {
+	font-family: 'Cabin Sketch', arial, serif;
+}
+
+.architects {
+	font-family: 'Architects Daughter', arial, serif;
+}
+
+.ubuntu {
+	font-family: 'Ubuntu', arial, serif;
+}
+
+body {
+	font-family: 'Ubuntu', arial, serif;
+}
+
+h1 {	
+	font-family: 'Cabin Sketch', arial, serif;
+}
+
+h2 {
+	font-family : 'Architects Daughter', arial, serfif;
+}
